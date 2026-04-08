@@ -4,7 +4,13 @@ Improve code readability, modularity and separation between frontend and backend
 
 <img width="975" height="368" alt="image" src="https://github.com/user-attachments/assets/a3e432d8-ad9d-4295-b5b4-b7427a364048" />
 
-
+## Quickstart
+```bash
+python -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+python main.py
+```
 
 ## Define your Model attributes and methods this way
 ```python
